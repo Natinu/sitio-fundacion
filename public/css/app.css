@@ -1,4 +1,4 @@
-/* Global Styles */
+@import url(http://weloveiconfonts.com/api/?family=brandico);/* Global Styles */
 
 h1,
 h2,
@@ -79,6 +79,7 @@ p {
   background-color: #22222261;
   border: none;
   color: white;
+  position: fixed;
 }
 
 .navbar-nav li a {
@@ -195,6 +196,7 @@ p {
   padding-top: 20px;
   padding-bottom: 20px;
   color: white;
+  margin-bottom: 0;
 }
 
 .jumbotron-donacion .titulo__inner {
@@ -258,5 +260,183 @@ h4 {
   h3 {
     margin-top: 10px;
   }
+}
+
+/* Colabora */
+
+.colabora {
+  text-align: center;
+  padding: 4rem 10vw 10rem 10vw;
+}
+
+.colabora container-fluid,
+.container-fluid {
+  padding-bottom: 55px;
+}
+
+.colabora__inner {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  padding: 0rem 0rem;
+  margin: 3rem 1rem;
+  background-color: #0080bf;
+  margin-right: 0;
+  margin-left: 0;
+  height: 60px;
+}
+
+.colabora__inner .text__inner {
+  padding: 1rem 0 1rem 0;
+}
+
+.colabora__inner .text__inner .icono p {
+  font-size: 2em;
+  color: #ffffff;
+  margin-bottom: 0;
+  float: left;
+  padding: 0;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.colabora a {
+  font-size: 1rem;
+  color: #373693;
+}
+
+.icono,
+.fas {
+  color: white;
+}
+
+.colabora h5 {
+  font-size: 1em;
+  color: #ffffff;
+  padding-left: 5px;
+  margin-top: 0;
+}
+
+.mi-mapa {
+  margin-bottom: 0;
+  padding-bottom: 250px;
+}
+
+app.sassbody {
+  background: black;
+  font-size: 30px;
+}
+
+.container {
+  background: black;
+}
+
+.container p {
+  font-size: 40px;
+}
+
+/* brandico */
+
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+ul.social-buttons {
+  text-align: center;
+  margin-top: 50px;
+  padding-left: 0;
+  width: 170px;
+}
+
+ul.social-buttons li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+ul.social-buttons li a {
+  width: 40px;
+  height: 40px;
+  display: block;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 60px;
+  color: white;
+}
+
+ul.social-buttons li a.brandico-twitter-bird {
+  background-color: #4099FF;
+}
+
+ul.social-buttons li a.brandico-facebook {
+  background-color: #3B5998;
+}
+
+ul.social-buttons li a.brandico-instagram {
+  background-color: #3f729b;
+}
+
+ul.social-buttons li a.brandico-vimeo {
+  background-color: #4EBBFF;
+}
+
+ul.social-buttons li a.brandico-linkedin {
+  background-color: #0e76a8;
+}
+
+/*Demo 1*/
+
+#demo1 {
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-left: 0;
+}
+
+ul#demo1 li a {
+  -webkit-transition: -webkit-transform 0.2s linear;
+  transition: -webkit-transform 0.2s linear;
+  transition: transform 0.2s linear;
+  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
+}
+
+ul#demo1 li:hover a {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.footer-jumbotron {
+  margin-bottom: 0;
+  background-image: url(../images/ninos-background-2.png?679714a970b2b0778eccc5f112ec4100);
+  color: white;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.footer-jumbotron .button_ninoycancer {
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.footer__inner {
+  padding-left: 30px;
+}
+
+.footer__inner ul {
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+.footer__inner h3 {
+  padding-left: 15px;
+}
+
+.end {
+  background-color: #2c2c31;
+  padding: 10px;
+  text-align: center;
+}
+
+.end p {
+  color: white;
+  font-weight: 300;
 }
 
