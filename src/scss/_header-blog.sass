@@ -1,0 +1,46 @@
+/* Nosotros *//* Header */
+
+$break-small: 400px
+$break-large: 768px
+
+.header-nosotros
+	background-image: url(../images/slide-calle.png)
+  	background-repeat: no-repeat
+  	background-size: cover
+  	text-align: center
+  	padding-top: 150px
+  	background-position: right bottom
+  		
+@media only screen and (max-width: $break-small)
+	.header-nosotros
+		height: 150px
+    
+  .subtitulo__inner
+  	color: white
+  	margin-top: 120px
+    font-size: 2em
+
+
+@media only screen and (min-width: $break-small + 1) and (max-width: $break-large - 1)
+	.header-nosotros
+		height: 150px
+	.subtitulo__inner
+  	color: white
+  	margin-top: 100px
+    font-size: 3em
+    
+
+@media only screen and (min-width: $break-large)
+	.header-nosotros
+		height: 300px
+    
+	.subtitulo__inner
+  	color: white
+  	margin-top: 200px
+    font-size: 3em
+    
+
+
+
+
+

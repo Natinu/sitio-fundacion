@@ -1,4 +1,6 @@
-@import url(http://weloveiconfonts.com/api/?family=brandico);/* Global Styles */
+@import url(http://weloveiconfonts.com/api/?family=brandico);/* HOME */
+
+/* Global Styles */
 
 h1,
 h2,
@@ -69,6 +71,7 @@ p {
 .jumbotron-header {
   padding-top: 0;
   padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .navbar_ninoycancer {
@@ -118,6 +121,10 @@ p {
 
   .carousel-caption {
     padding-bottom: 10px;
+  }
+
+  .navbar_ninoycancer .container-fluid {
+    padding-bottom: 0;
   }
 }
 
@@ -191,11 +198,11 @@ p {
 /* Donacion */
 
 .jumbotron-donacion {
-  background-image: url(../images/ninos-background.png?d73a4a29d5480fa91771bd7306a08df8);
+  background-image: url(../images/ninos-background-blanco.png?03051f954581fdf4edeb90a31cd0c61c);
   background-size: cover;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #000000;
   margin-bottom: 0;
 }
 
@@ -210,7 +217,7 @@ h4 {
 
 .voluntariado__inner p,
 .donacion__inner p {
-  color: white;
+  color: #949292;
   font-size: 1em;
 }
 
@@ -427,6 +434,7 @@ ul#demo1 li:hover a {
 
 .footer__inner h3 {
   padding-left: 15px;
+  font-weight: 300;
 }
 
 .end {
@@ -438,5 +446,117 @@ ul#demo1 li:hover a {
 .end p {
   color: white;
   font-weight: 300;
+}
+
+/* Header */
+
+.header-nosotros {
+  background-image: url(../images/slide-voluntariado.png?8670aa5d89857d68e76173a528b746ed);
+  background-image-background-repeat: no-repeat;
+  background-image-background-size: cover;
+  background-image-text-align: center;
+  background-image-padding-top: 150px;
+  background-image-background-position: right bottom;
+}
+
+@media only screen and (max-width: 400px) {
+  .header-nosotros {
+    height: 150px;
+  }
+
+  .header-nosotros .subtitulo__inner {
+    color: white;
+    margin-top: 120px;
+    margin-top-font-size: 2em;
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 767px) {
+  .header-nosotros {
+    height: 150px;
+  }
+
+  .subtitulo__inner {
+    color: white;
+    margin-top: 100px;
+    margin-top-font-size: 3em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .header-nosotros {
+    height: 300px;
+  }
+
+  .subtitulo__inner {
+    color: white;
+    margin-top: 200px;
+    margin-top-font-size: 3em;
+  }
+}
+
+/* Equipo*/
+
+.equipo {
+  padding-bottom: 0;
+}
+
+.equipo__inner_background {
+  background-image: url(../images/equipo-2018.jpg?7bf046c27be551eb8d3953fee976d532);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 350px;
+}
+
+.objetivos__inner_background {
+  background-image: url(../images/objetivos-2018.png?373427d10711add9bd723e49c8eee08b);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 350px;
+}
+
+.equipo__inner {
+  padding-top: 5vh;
+  padding-left: 10vw;
+}
+
+.objetivos {
+  padding-bottom: 0;
+}
+
+.objetivos__inner {
+  padding-top: 5vh;
+  padding-left: 4vw;
+}
+
+.equipo__inner h3,
+.objetivos__inner h3 {
+  font-size: 2em;
+}
+
+.equipo__inner p,
+.objetivos__inner p {
+  padding-top: 1rem;
+  padding-bottom: 0;
+  padding-right: 8vw;
+  font-size: 1.1em;
+}
+
+@media only screen and (max-width: 400px) {
+  .equipo__inner {
+    padding-top: 2vh;
+    padding-left: 15vw;
+    padding-bottom: 5vh;
+  }
+
+  .equipo__inner h3 {
+    font-size: 2em;
+  }
+
+  .equipo__inner_background {
+    height: 300px;
+  }
 }
 
