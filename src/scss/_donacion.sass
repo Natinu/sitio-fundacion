@@ -1,0 +1,55 @@
+/* Donacion */
+
+$break-small: 400px
+$break-large: 768px
+
+
+.jumbotron-donacion
+	background-image: url(../images/ninos-background.png)
+	background-size: cover 
+	padding-top: 20px
+	padding-bottom: 20px
+	color: white
+	.titulo__inner
+		text-shadow: none
+
+.jumbotron-donacion h3, h4
+  	font-weight: 300
+.voluntariado__inner, .donacion__inner
+	//
+	p
+		color: white
+		font-size: 1em
+.voluntariado__inner, .donacion__inner
+	//
+	a
+		margin-left: 0
+
+			
+
+@media only screen and (max-width: $break-small)
+	.titulo__inner 
+		margin-top: 0
+	h3
+		margin-top: 5px
+
+	.titulo__inner h4
+		/* borrar h4 en responsive*/
+
+	.voluntariado__inner p, .donacion__inner p
+		margin-bottom: 0
+	.donacion__inner
+		margin-top: 20px
+
+@media only screen and (min-width: $break-small + 1) and (max-width: $break-large - 1)
+	.titulo__inner
+		margin-top: 0 
+	h3
+		margin-top: 10px
+
+@media only screen and (min-width: $break-large)
+	.titulo__inner
+		margin-top: 80px 
+	h3
+		margin-top: 10px
+

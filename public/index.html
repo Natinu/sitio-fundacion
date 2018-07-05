@@ -17,7 +17,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 	<!-- Google Fonts | lato & poppins fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato|Poppins" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400"|Poppins" rel="stylesheet">
 	<!-- Mi estilo -->
 	<link rel="stylesheet" href="css/app.css">
 
@@ -54,7 +54,7 @@
 			</div><!-- /.container-fluid -->
 		</nav>
 
-	
+
 		<!--  Slides -->
 		<div id="myCarousel" class="mi-carousel carousel slide" data-ride="carousel">
 
@@ -153,109 +153,121 @@
 	</section> <!-- /.noticias .container-fluid-->
 
 	<!-- Llamado a Donación -->
-	<div class="donacion jumbotron">
+	<div class="jumbotron jumbotron-donacion">
 		<div class="row">
-			<div class="col-lg-4 col-md-4 col-sm-12">
-				<h4>Acompañanos</h4>
-				<h3>Necesitamos <br>
-				tu ayuda</h3>
-			</div>
+			<div class="col-md-offset-1 col-md-10 col-sm-12">
 
-			<!-- Llamado a Voluntariado -->
-			<div class="col-lg-4 col-md-4 col-sm-12">
-				<h3>Voluntariado</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur reiciendis animi sapiente, ullam optio.</p>
-				<button type="button" class="btn btn-primary btn_fundacion-cancer" >Participar</button>
-			</div>
+				<!-- Titulo llamado a donacion -->
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<div class="titulo__inner">
+						<h4>ACOMPAÑANOS</h4>
+						<h3>NECESITAMOS <br>
+						TU AYUDA</h3>
+					</div>
+				</div>
 
-			<!-- Llamado a Donar -->
-			<div class="col-lg-4 col-md-4 col-sm-12">
-				<h3>Haz tu Donación</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur reiciendis animi sapiente, ullam optio.</p>
-				<button type="button" class="btn btn-primary btn_fundacion-cancer" >Donar</button>
+				<!-- Llamado a Voluntariado -->
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<div class="voluntariado__inner" >
+						<h3>Voluntariado</h3>
+						<p>Ayudanos en nuestra tarea. <br>
+						Contamos con voluntariados tanto en Santiago como en Concepción.</p>
+						<a class="btn button_ninoycancer" href="#">Participar</a>
+					</div>
+				</div>
+
+				<!-- Llamado a Donar -->
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<div class="donacion__inner">
+						<h3>Haz tu Donación</h3>
+						<p>Existen muchas formas de apoyar a la fundación. Puedes hacer tu donación directamente a través de Web Pay</p>
+						<a class="btn button_ninoycancer" href="#">Donar</a>
+					</div>
+				</div>
 			</div>
 		</div>
-	</div><!-- /.donacion .jumbotron-->
-
-	<!-- Maps -->
-	<div class="jumbotron maps embed-responsive embed-responsive-16by9" style="padding-bottom: 200px;">
-		<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.5093060797194!2d-70.53933968582902!3d-33.38387450148243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1530683859267" ></iframe>
-	</div><!-- /.jumbotron .maps-->
-
-	<!-- Footer -->
-	<footer class="jumbotron">
-		<div class="row">
-
-			<!-- Footer Columna Izquierda -->
-			<div class="col-md-4 col-sm-12">
-				<h3>Datos</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore saepe.</p>
-				<div class="redes-sociales">
-					<ul class="social-buttons" id="demo1">
-						<li>
-							<a href="https://www.facebook.com/ninoycancer/" class="brandico-facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
-						</li>
-						<li>
-							<a href="https://www.instagram.com/fundacionninoycancer/" class="brandico-instagram" target="_blank"><i class="fab fa-instagram"></i></a>
-						</li>
-					</ul>
-				</div>
-			</div>
-
-			<!-- Footer Columna Derecha-->
-			<div class="col-md-offset-1 col-md-7 col-sm-12">
-				<div class="row">
-					<h3> Suscríbete a nuestro newsletter</h3>
-					<div class="col-md-4">
-						<div class="form-group">
-							<label class="sr-only" for="name">Name</label>
-							<input name="name" id="name" class="form-control validate[required]" type="text" value="" placeholder="Name *">
-						</div>
-					</div>
-					<div class="col-md-7">
-						<div class="form-group">
-							<label class="sr-only" for="email">Email</label>
-							<input name="email" id="email" class="form-control validate[required,custom[email]]" type="email" value="" placeholder="Email *">
-							<input type="hidden" name="formfields[fromEmail]" id="fromEmail" value="">
-						</div>
-					</div>
-				</div>
-				
-				<div class="row">
-					<h3></h3>
-					<div class="col-md-4">
-						<div class="form-group">
-							<label class="sr-only" for="phone">Phone</label>
-							<input name="phone" id="phone" class="form-control h5-phone validate[required,custom[phone]]" type="tel" value="" placeholder="Phone *"> 
-						</div>
-					</div>
-					<div class="col-md-7">
-						<button type="button" class="btn btn-primary btn-rounded">Primary</button>
-					</div>
-				</div>
-			</div>
-		</div><!-- /.row -->
-	</footer> <!-- /.jumbotron -->
-	<!-- Footer -->
-	<!-- Copyright -->
-	<div class="end">
-		<p>Fundación Niño y Cáncer 2018</p>
 	</div>
+</div> <!-- /.donacion .jumbotron-->
+
+<!-- Maps -->
+<div class="jumbotron maps embed-responsive embed-responsive-16by9" style="padding-bottom: 200px;">
+	<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.5093060797194!2d-70.53933968582902!3d-33.38387450148243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1530683859267" ></iframe>
+</div><!-- /.jumbotron .maps-->
+
+<!-- Footer -->
+<footer class="jumbotron">
+	<div class="row">
+
+		<!-- Footer Columna Izquierda -->
+		<div class="col-md-4 col-sm-12">
+			<h3>Datos</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore saepe.</p>
+			<div class="redes-sociales">
+				<ul class="social-buttons" id="demo1">
+					<li>
+						<a href="https://www.facebook.com/ninoycancer/" class="brandico-facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+					</li>
+					<li>
+						<a href="https://www.instagram.com/fundacionninoycancer/" class="brandico-instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- Footer Columna Derecha-->
+		<div class="col-md-offset-1 col-md-7 col-sm-12">
+			<div class="row">
+				<h3> Suscríbete a nuestro newsletter</h3>
+				<div class="col-md-4">
+					<div class="form-group">
+						<label class="sr-only" for="name">Name</label>
+						<input name="name" id="name" class="form-control validate[required]" type="text" value="" placeholder="Name *">
+					</div>
+				</div>
+				<div class="col-md-7">
+					<div class="form-group">
+						<label class="sr-only" for="email">Email</label>
+						<input name="email" id="email" class="form-control validate[required,custom[email]]" type="email" value="" placeholder="Email *">
+						<input type="hidden" name="formfields[fromEmail]" id="fromEmail" value="">
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<h3></h3>
+				<div class="col-md-4">
+					<div class="form-group">
+						<label class="sr-only" for="phone">Phone</label>
+						<input name="phone" id="phone" class="form-control h5-phone validate[required,custom[phone]]" type="tel" value="" placeholder="Phone *"> 
+					</div>
+				</div>
+				<div class="col-md-7">
+					<button type="button" class="btn btn-primary btn-rounded">Primary</button>
+				</div>
+			</div>
+		</div>
+	</div><!-- /.row -->
+</footer> <!-- /.jumbotron -->
+<!-- Footer -->
+<!-- Copyright -->
+<div class="end">
+	<p>Fundación Niño y Cáncer 2018</p>
+</div>
 
 
 
 
 
 
-			<!-- SCRIPTS-->
-			<script
-			src="https://code.jquery.com/jquery-3.3.1.min.js"
-			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-			crossorigin="anonymous"></script>
+<!-- SCRIPTS-->
+<script
+src="https://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
 
-			<!-- Latest compiled and minified JavaScript -->
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-			<!--Java-->
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!--Java-->
 
-		</body>
-		</html>
+</body>
+</html>

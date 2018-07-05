@@ -62,6 +62,8 @@ p {
   color: #325DFF;
 }
 
+/* Header */
+
 /* NavBar */
 
 .jumbotron-header {
@@ -142,9 +144,16 @@ p {
   top: 0;
 }
 
+/* Noticias */
+
 .noticias {
   text-align: center;
   padding: 4rem 10vw 10rem 10vw;
+}
+
+.noticias container-fluid,
+.container-fluid {
+  padding-bottom: 20px;
 }
 
 .noticias__inner {
@@ -176,5 +185,78 @@ p {
 .noticias h5 {
   font-size: 1em;
   color: #565656;
+}
+
+/* Donacion */
+
+.jumbotron-donacion {
+  background-image: url(../images/ninos-background.png?d73a4a29d5480fa91771bd7306a08df8);
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.jumbotron-donacion .titulo__inner {
+  text-shadow: none;
+}
+
+.jumbotron-donacion h3,
+h4 {
+  font-weight: 300;
+}
+
+.voluntariado__inner p,
+.donacion__inner p {
+  color: white;
+  font-size: 1em;
+}
+
+.voluntariado__inner a,
+.donacion__inner a {
+  margin-left: 0;
+}
+
+@media only screen and (max-width: 400px) {
+  .titulo__inner {
+    margin-top: 0;
+  }
+
+  h3 {
+    margin-top: 5px;
+  }
+
+  .titulo__inner h4 {
+    /* borrar h4 en responsive*/
+  }
+
+  .voluntariado__inner p,
+  .donacion__inner p {
+    margin-bottom: 0;
+  }
+
+  .donacion__inner {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 767px) {
+  .titulo__inner {
+    margin-top: 0;
+  }
+
+  h3 {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .titulo__inner {
+    margin-top: 80px;
+  }
+
+  h3 {
+    margin-top: 10px;
+  }
 }
 
