@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Fundación Niño y Cáncer</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 
 	<!--FontAwesome-->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -14,44 +16,47 @@
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-
+	<!-- Google Fonts | lato & poppins fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Poppins" rel="stylesheet">
 	<!-- Mi estilo -->
 	<link rel="stylesheet" href="css/app.css">
 
 </head>
 <body>
 
-	<!-- Navbar -->
-	<nav class="navbar navbar-default">
-		<div class="container-fluid">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#">Brand</a>
-			</div>
-
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav">
-				</ul>
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">Inicio</a></li>
-					<li><a href="#">Nosotros</a></li>
-					<li><a href="#">Noticias</a></li>
-					<button type="button" class="btn btn-primary btn-rounded">Primary</button>
-				</ul>
-			</div><!-- /.navbar-collapse -->
-		</div><!-- /.container-fluid -->
-	</nav>
-
 	<!-- Header -->
-	<div class="slider jumbotron">
-		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<div class="jumbotron-header jumbotron">
+		<nav class="navbar navbar_ninoycancer">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">
+						<img src="../src/images/logo-ninoycancer.png" alt="logo-ninoycancer">
+					</a>
+
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right navbar__navigation">
+						<li><a href="#">INICIO</a></li>
+						<li><a href="#">NOSOTROS</a></li>
+						<li><a href="#">NOTICIAS</a></li>
+						<a class="btn button_ninoycancer" href="#">Donar</a>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+
+	
+		<!--  Slides -->
+		<div id="myCarousel" class="mi-carousel carousel slide" data-ride="carousel">
 
 			<!-- Indicators -->
 			<ol class="carousel-indicators">
@@ -63,26 +68,24 @@
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner">
 				<div class="item active">
-					<img src="../src/images/beans.png" alt="slide-1" style="width:100%;">
+					<img src="../src/images/slide-ninos.png" alt="slide-1" style="width:100%;">
 					<div class="carousel-caption">
-						<h3>Los Angeles</h3>
-						<p>LA is always so much fun!</p>
+						<h2>Contribuimos con el tratamiento <br>
+						de niños con cáncer y leucemia en Chile </h2>
 					</div>
 				</div>
 
 				<div class="item">
-					<img src="../src/images/beans.png" alt="slide-2" style="width:100%;">
+					<img src="../src/images/slide-calle.png" alt="slide-2" style="width:100%;">
 					<div class="carousel-caption">
-						<h3>Chicago</h3>
-						<p>Thank you, Chicago!</p>
+						<h3>¿Como colaborar?</h3>
 					</div>
 				</div>
 
 				<div class="item">
-					<img src="../src/images/beans.png" alt="slide-3" style="width:100%;">
+					<img src="../src/images/slide-voluntariado.png" alt="slide-3" style="width:100%;">
 					<div class="carousel-caption">
-						<h3>New York</h3>
-						<p>We love the Big Apple!</p>
+						<h3>¡Conoce nuestro Voluntariado!</h3>
 					</div>
 				</div>
 			</div>
@@ -97,12 +100,12 @@
 				<span class="sr-only">Next</span>
 			</a>
 		</div><!-- /.myCarousel-->
-	</div> <!-- /.slider .jumbotron-->
+	</div>
 
 	<!-- Noticias -->
-	<section class="noticias container-fluid">
+	<section class="noticias container">
 		<div class="row">
-			<div class="col-md-offset-2 col-md-8">
+			<div class="col-md-offset-2 col-md-8 col-sm-12">
 				<h2>Noticias Destacadas</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus
 				</p>
@@ -182,7 +185,7 @@
 		<div class="row">
 
 			<!-- Footer Columna Izquierda -->
-			<div class="iz col-md-4">
+			<div class="col-md-4 col-sm-12">
 				<h3>Datos</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore saepe.</p>
 				<div class="redes-sociales">
@@ -198,9 +201,9 @@
 			</div>
 
 			<!-- Footer Columna Derecha-->
-			<div class="der col-md-offset-1 col-md-7">
+			<div class="col-md-offset-1 col-md-7 col-sm-12">
 				<div class="row">
-					<h3>Suscríbete a nuestro newsletter</h3>
+					<h3> Suscríbete a nuestro newsletter</h3>
 					<div class="col-md-4">
 						<div class="form-group">
 							<label class="sr-only" for="name">Name</label>
@@ -232,6 +235,10 @@
 		</div><!-- /.row -->
 	</footer> <!-- /.jumbotron -->
 	<!-- Footer -->
+	<!-- Copyright -->
+	<div class="end">
+		<p>Fundación Niño y Cáncer 2018</p>
+	</div>
 
 
 

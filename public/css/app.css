@@ -1,0 +1,143 @@
+/* Global Styles */
+
+h1,
+h2,
+h3 {
+  font-family: 'Lato', sans-serif;
+}
+
+p,
+li,
+a,
+small {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Font hierarchy */
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.625em;
+  }
+
+  h3 {
+    font-size: 1.375em;
+  }
+}
+
+/* Button */
+
+.button_ninoycancer {
+  background-color: #373693;
+  border-radius: 30px;
+  padding: 0.5rem 2rem;
+  padding-margin-top: 0.7rem;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.button_ninoycancer:hover {
+  background-color: rgba(51, 95, 255, 0.1);
+  color: #325DFF;
+}
+
+/* NavBar */
+
+.jumbotron-header {
+  padding-top: 0;
+}
+
+.navbar_ninoycancer {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: #22222261;
+  border: none;
+  color: white;
+}
+
+.navbar-nav li a {
+  color: white;
+  text-shadow: none;
+  text-shadow-text-transform: uppercase;
+}
+
+.nav {
+  margin-right: 130px;
+}
+
+.nav li a:hover {
+  background-color: initial;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-toggle {
+  background-color: #14141491;
+}
+
+.icon-bar {
+  background-color: #fff;
+}
+
+.button_ninoycancer {
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+@media only screen and (max-width: 400px) {
+  .navbar-brand {
+    padding: 10px;
+    padding-left: 30px;
+  }
+
+  .carousel-caption {
+    padding-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 767px) {
+  .navbar-brand {
+    padding: 10px;
+    padding-left: 60px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-brand {
+    padding: 10px;
+    padding-left: 200px;
+  }
+
+  .carousel-caption {
+    padding-bottom: 200px;
+  }
+}
+
+/* Carrousel */
+
+.mi-carousel {
+  top: 0;
+}
+

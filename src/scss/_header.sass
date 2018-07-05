@@ -1,0 +1,70 @@
+$break-small: 400px
+$break-large: 768px
+
+
+/* NavBar */
+.jumbotron-header
+	padding-top: 0
+.navbar_ninoycancer
+	position: absolute
+	top: 0
+	width: 100%
+	z-index: 999
+	background-color: #22222261
+	border: none
+	color: white
+
+.navbar-nav
+		//aquí va estilos de navbar-nav
+		li
+			//aquí va estilos de li
+			a
+				color: white
+				text-shadow: none
+  				text-transform: uppercase
+.nav
+	margin-right: 130px
+	li
+		//estilo li
+		a:hover
+  			background-color: initial
+  			color: hsla(0, 0%, 100%, .5)
+
+.navbar-toggle
+	background-color: #14141491
+
+.icon-bar 
+  background-color: #fff
+
+.button_ninoycancer
+  	margin-top: 10px
+  	margin-left: 25px
+
+		
+@media only screen and (max-width: $break-small)
+	.navbar-brand
+		padding: 10px
+		padding-left: 30px
+	.carousel-caption
+		padding-bottom: 10px
+
+@media only screen and (min-width: $break-small + 1) and (max-width: $break-large - 1)
+	.navbar-brand
+		padding: 10px
+		padding-left: 60px
+
+@media only screen and (min-width: $break-large)
+	.navbar-brand
+		padding: 10px
+		padding-left: 200px
+	.carousel-caption
+		padding-bottom: 200px
+
+
+/* Carrousel */
+
+.mi-carousel
+	top: 0
+
+
+
