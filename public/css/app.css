@@ -1,4 +1,4 @@
-@import url(http://weloveiconfonts.com/api/?family=brandico);/* HOME */
+@import url(http://weloveiconfonts.com/api/?family=brandico);/* Inicio */
 
 /* Global Styles */
 
@@ -110,7 +110,6 @@ p {
 
 .button_ninoycancer {
   margin-top: 10px;
-  margin-left: 25px;
 }
 
 @media only screen and (max-width: 400px) {
@@ -448,6 +447,8 @@ ul#demo1 li:hover a {
   font-weight: 300;
 }
 
+/* Nosotros */
+
 /* Header */
 
 .header-nosotros {
@@ -558,5 +559,82 @@ ul#demo1 li:hover a {
   .equipo__inner_background {
     height: 300px;
   }
+}
+
+/* Blog */
+
+/* Blog */
+
+.blog {
+  text-align: center;
+  padding: 4rem 10vw 10rem 10vw;
+}
+
+.blog,
+.container-fluid,
+.container-fluid {
+  padding-bottom: 20px;
+}
+
+.blog__inner {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  padding: 0rem 0rem;
+  margin: 3rem 1rem;
+  background-color: #fbfbfb;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.blog__inner .text__inner {
+  padding: 1rem 0.5vw 1rem 2vw;
+  text-align: left;
+}
+
+.blog__inner .text__inner p {
+  font-size: 0.8em;
+  color: #909090;
+  margin-bottom: 0;
+}
+
+.img-thumbnail,
+.thumbnail {
+  max-width: 100%;
+}
+
+.blog a {
+  font-size: 1.3rem;
+  color: white;
+}
+
+.blog h5 {
+  font-size: 1em;
+  color: #565656;
+}
+
+.pager .previous a {
+  color: #373693;
+}
+
+.pager .next a {
+  color: #373693;
+}
+
+.widget__inner a {
+  color: #337ab7;
+}
+
+.container-widget {
+  overflow: hidden;
+}
+
+.widget__inner {
+  text-align: center;
+}
+
+.widget__inner .button_ninoycancer {
+  color: white;
+  background-color: #1e98d2;
 }
 
